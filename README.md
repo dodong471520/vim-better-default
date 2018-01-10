@@ -2,7 +2,6 @@ vim-better-default
 ==================
 
 
-
 There are some general settings for convenience in almost everyone's `.vimrc` file. Let's shorten your `.vimrc` and make the default vim better.
 
 ## Features
