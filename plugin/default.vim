@@ -188,6 +188,7 @@ if has('gui_running')
   set visualbell t_vb=
 endif
 
+
 " Key (re)Mappings {
 
   if !exists('g:vim_better_default_key_mapping') ||
@@ -197,8 +198,8 @@ endif
       if !exists('g:vim_better_default_basic_key_mapping') ||
             \ g:vim_better_default_basic_key_mapping
         " Quit normal mode
-        nnoremap <Leader>q  :q<CR>
-        nnoremap <Leader>Q  :qa!<CR>
+        nnoremap <Leader>q  :q<cr>
+        nnoremap <Leader>Q  :qa!<cr>
         " Move half page faster
         nnoremap <Leader>d  <C-d>
         nnoremap <Leader>u  <C-u>
